@@ -23,6 +23,7 @@ function App() {
         setBalance(data.native)
         setTokens(data.tokens)
         setNfts(data.nfts)
+        console.log(data.nfts)
       } catch (e) {
         console.log(e)
       }
